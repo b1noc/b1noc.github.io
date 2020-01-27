@@ -1710,13 +1710,13 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 
 .divide-left .slide-background-content {
-	width: 50%;
+	width: 40%;
 	right: 0;
 	background-size: cover;
 }
 
 .divide-right .slide-background-content {
-	width: 50%;
+	width: 40%;
 	left: 0;
 	background-size: cover;
 }
@@ -1724,15 +1724,15 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal .west {
   position: fixed;
   top: 49%;
-	width: 45%;
-	right: 55%;
+	width: 70%;
+	left: -15% ;
 }
 
 .reveal .east {
   position: fixed;
   top: 49%;
-	width: 40%;
-  left: 55%;
+	width: 70%;
+  right: -15%;
 }
 
 /*********************************************
@@ -2088,6 +2088,35 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 		<div class="reveal">
 			<div class="slides">
 
+				<section class="divide-left" data-background="res/Minovich.png">
+				<div class="west" data-markdown>
+				</div>
+				</section>
+
+				<section data-background="res/instruments.png" class="fit-bg3"></section>
+
+				<section class="divide-right" data-background="res/dish.jpg">
+				<div class="east" data-markdown>
+					### AACS
+					Attitude and Articulation Control Subsystem
+					- 16 Hydrazin Schubdüsen
+					- 3-Achsen Stabilisatoren (Gyroskope, und Beschleunigunssensoren)
+					- Sonnensensoren mit dem Sonne bzw. Canopus Stern als Referenz 
+					- 8 Backup Schubdüsen
+				</div>
+				</section>
+
+
+				<section class="divide-left" data-background="res/goldenrecord.jpeg">
+				<div class="west" data-markdown>
+					>	"The spacecraft will be encountered and the record played only if there are advanced space-faring civilizations in interstellar space, but the launching of this 'bottle' into the cosmic 'ocean' says something very hopeful about life on this planet." 
+
+					\- Carl Sagen
+				</div>
+				</section>
+
+				<section data-background="res/VoyagerSize.jpg" ></section>
+
 				<section data-background="res/v1.jpg">
 					<h1>
 						<div class="fixed">
@@ -2257,7 +2286,6 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 					- In ca. 40.000 Jahren wird Voyager 2 1,7 Lichtjahre vom Stern Ross 248 entfernt sein
 					- In ungefähr 296.000 Jahren wird Voyager 2 4,3 Lichtjahre von Sirius weit weg sein, dem hellsten Stern am Himmel
 				</section>
-
 
 				<section>
 					<section data-background="res/v2t.jpg" class="fit-bg3"></section>
